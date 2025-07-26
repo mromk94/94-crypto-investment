@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary text-white font-sans;
+}
+
+@keyframes blob1 {
+  0%, 100% { transform: translateY(0) scale(1); }
+  33% { transform: translateY(-30px) scale(1.05); }
+  66% { transform: translateY(20px) scale(0.97); }
+}
+@keyframes blob2 {
+  0%, 100% { transform: translateX(0) scale(1); }
+  25% { transform: translateX(-40px) scale(1.08); }
+  50% { transform: translateX(30px) scale(0.95); }
+  75% { transform: translateX(-20px) scale(1.02); }
+}
+@keyframes blob3 {
+  0%, 100% { transform: translate(0,0) scale(1); }
+  20% { transform: translate(-20px, 30px) scale(1.04); }
+  50% { transform: translate(30px, -20px) scale(0.98); }
+  80% { transform: translate(-10px, 10px) scale(1.03); }
+}
+
+.animate-blob1 {
+  animation: blob1 8s ease-in-out infinite;
+}
+.animate-blob2 {
+  animation: blob2 10s ease-in-out infinite;
+}
+.animate-blob3 {
+  animation: blob3 12s ease-in-out infinite;
+}
+
+/* Custom background color utilities for animated blobs */
+
+
+

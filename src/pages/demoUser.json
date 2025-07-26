@@ -1,0 +1,39 @@
+{
+  "name": "Demo User",
+  "username": "demouser",
+  "email": "demo@tonsui.com",
+  "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+  "kycVerified": false,
+  "balances": {
+    "TON": 1245.67,
+    "SUI": 321.45,
+    "USD": 5870.23,
+    "REF": 100.00
+  },
+  "roi": 12.5,
+  "invested": 2500,
+  "roiAmount": 350,
+  "plans": [
+    {
+      "name": "VIP",
+      "invested": 2000,
+      "roiPercent": 10,
+      "totalRoiEarned": 300,
+      "lastRoiPayoutAt": "2025-07-13T15:00:00.000Z",
+      "status": "Active"
+    },
+    {
+      "name": "Starter",
+      "invested": 500,
+      "roiPercent": 5,
+      "totalRoiEarned": 50,
+      "lastRoiPayoutAt": "2025-07-13T14:00:00.000Z",
+      "status": "Completed"
+    }
+  ],
+  "tickets": [
+    {"id": 1, "subject": "Deposit not credited", "status": "Open"},
+    {"id": 2, "subject": "KYC verification delay", "status": "Closed"}
+  ]
+}
+
