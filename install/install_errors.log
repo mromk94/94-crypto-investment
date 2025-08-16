@@ -1,0 +1,201 @@
+[27-Jul-2025 10:18:08 UTC] Uncaught Exception: Invalid CSRF token. Please try again. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 282
+[27-Jul-2025 10:18:08 UTC] Uncaught Exception: Invalid CSRF token. Please try again. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 282
+[27-Jul-2025 10:18:08 UTC] Uncaught Exception: Invalid CSRF token. Please try again. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 282
+[27-Jul-2025 10:18:08 UTC] Uncaught Exception: Invalid CSRF token. Please try again. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 282
+[27-Jul-2025 10:20:01 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 287
+[27-Jul-2025 10:20:01 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 295
+[27-Jul-2025 10:20:02 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 287
+[27-Jul-2025 10:20:02 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 295
+[27-Jul-2025 10:20:02 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 310
+[27-Jul-2025 10:20:02 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 287
+[27-Jul-2025 10:20:02 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 295
+[27-Jul-2025 10:20:03 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 287
+[27-Jul-2025 10:20:03 UTC] Error [8192] Constant FILTER_SANITIZE_STRING is deprecated in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 295
+[27-Jul-2025 10:21:22 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 310
+[27-Jul-2025 10:22:23 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 310
+[27-Jul-2025 10:25:08 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 310
+[27-Jul-2025 10:26:00 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 310
+[27-Jul-2025 10:28:11 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 310
+[27-Jul-2025 10:29:56 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:29:56 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:29:56 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:29:56 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:32:37 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:32:37 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:32:37 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:32:37 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:33:55 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:33:55 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:33:55 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:33:55 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:35:34 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:35:35 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:35:35 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:35:35 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:35:35 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:35:35 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:36:39 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:36:39 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:36:39 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:36:39 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:37:58 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:37:58 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:37:58 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:37:58 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:37:58 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:37:58 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:42:00 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:42:00 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:42:00 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:42:00 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:42:00 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:42:00 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:44:07 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:44:07 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:44:07 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:44:07 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:44:07 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:44:07 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:45:07 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:45:07 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:45:07 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:45:07 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:45:07 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:45:07 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:46:49 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:46:49 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:46:49 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:46:49 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:46:49 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:46:49 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:53:05 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 332
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:53:05 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:53:05 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:53:05 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 10:53:05 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 10:53:05 UTC] Mailer Error: Invalid address:  (From): 
+[27-Jul-2025 11:07:00 UTC] Uncaught Exception: All database fields are required. in /Users/mac/CascadeProjects/TonSuiMining/install/index.php on line 423
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_host" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 15
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_user" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 17
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_pass" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 18
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_secure" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 19
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_port" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 20
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_from" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 11:07:00 UTC] Error [2] Undefined array key "smtp_from_name" in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/send_mail.php on line 24
+[27-Jul-2025 11:07:00 UTC] Error [8192] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/mac/CascadeProjects/TonSuiMining/auth-backend/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1338
+[27-Jul-2025 11:07:00 UTC] Mailer Error: Invalid address:  (From): 

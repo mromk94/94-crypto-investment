@@ -22,16 +22,23 @@ define('TONSUI_LOADED', true);
 // Include centralized session initialization
 require_once __DIR__ . '/session_init.php';
 
-// Require admin authentication since this lists ALL investments
+// Require admin authentication
 requireAdmin(true);
 
 require_once 'db.php';
 
 try {
-    $stmt = $pdo->query("SELECT i.*, p.name as plan_name, u.username FROM investments i LEFT JOIN investment_plans p ON i.plan_id = p.id LEFT JOIN users u ON i.user_id = u.id ORDER BY i.created_at DESC LIMIT 100");
-    $investments = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    echo json_encode(['success' => true, 'investments' => $investments]);
+    $stmt = $pdo->query("SELECT id, username, email, created_at, balance FROM users ORDER BY created_at DESC");
+    $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    
+    echo json_encode([
+        'success' => true,
+        'users' => $users
+    ]);
 } catch (Exception $e) {
-    echo json_encode(['success' => false, 'message' => 'Error: ' . $e->getMessage()]);
+    echo json_encode([
+        'success' => false,
+        'message' => 'Failed to fetch users: ' . $e->getMessage()
+    ]);
 }
 ?>

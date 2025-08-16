@@ -21,13 +21,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
-require_once 'db.php';
-
 try {
-    $stmt = $pdo->query("SELECT * FROM content WHERE status = \"active\" ORDER BY created_at DESC");
-    $content = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    echo json_encode(["success" => true, "content" => $content]);
+    // Return mock system rates for now
+    $rates = [
+        'btc_usd' => 45000.00,
+        'eth_usd' => 3000.00,
+        'usdt_usd' => 1.00,
+        'mining_rate' => 0.05,
+        'withdrawal_fee' => 1.00,
+        'min_deposit' => 10.00,
+        'min_withdrawal' => 5.00
+    ];
+    
+    echo json_encode([
+        'success' => true,
+        'rates' => $rates
+    ]);
 } catch (Exception $e) {
-    echo json_encode(["success" => false, "message" => "Error: " . $e->getMessage()]);
+    echo json_encode([
+        'success' => false,
+        'message' => 'Failed to fetch system rates: ' . $e->getMessage()
+    ]);
 }
 ?>

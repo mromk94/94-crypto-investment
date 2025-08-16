@@ -10,6 +10,9 @@ header("Access-Control-Allow-Origin: $allowed_origin");
 header('Access-Control-Allow-Methods: GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization');
 header('Access-Control-Allow-Credentials: true');
+header('X-Content-Type-Options: nosniff');
+header('X-Frame-Options: DENY');
+header('X-XSS-Protection: 1; mode=block');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
@@ -22,16 +25,25 @@ define('TONSUI_LOADED', true);
 // Include centralized session initialization
 require_once __DIR__ . '/session_init.php';
 
-// Require admin authentication since this lists ALL investments
-requireAdmin(true);
+// Require user authentication
+requireLogin(true);
 
 require_once 'db.php';
 
 try {
-    $stmt = $pdo->query("SELECT i.*, p.name as plan_name, u.username FROM investments i LEFT JOIN investment_plans p ON i.plan_id = p.id LEFT JOIN users u ON i.user_id = u.id ORDER BY i.created_at DESC LIMIT 100");
-    $investments = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    echo json_encode(['success' => true, 'investments' => $investments]);
+    $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0;
+    $stmt = $pdo->prepare("SELECT * FROM transactions WHERE user_id = ? ORDER BY created_at DESC LIMIT 50");
+    $stmt->execute([$user_id]);
+    $transactions = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    
+    echo json_encode([
+        'success' => true,
+        'transactions' => $transactions
+    ]);
 } catch (Exception $e) {
-    echo json_encode(['success' => false, 'message' => 'Error: ' . $e->getMessage()]);
+    echo json_encode([
+        'success' => false,
+        'message' => 'Failed to fetch transactions: ' . $e->getMessage()
+    ]);
 }
 ?>

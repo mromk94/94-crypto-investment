@@ -1,18 +1,24 @@
 <?php
-// Unified config for DB and SMTP
-return [
-    // Database settings
-    'db_host' => 'localhost:3306',
-    'db_name' => 'tonsvxcx_ultimate',
-    'db_user' => 'tonsvxcx_admin',
-    'db_pass' => 'Successtrain2024@@',
+/**
+ * Configuration File
+ *
+ * Contains database, SMTP, and other configuration settings
+ */
 
-    // SMTP settings (editable from admin dashboard)
-    'smtp_host' => 'tonsuimining.com',
-    'smtp_port' => 465,
-    'smtp_user' => 'support@tonsuimining.com',
-    'smtp_pass' => 'Successtrain2025@',
-    'smtp_secure' => 'ssl', // 'tls' or 'ssl'
-    'smtp_from' => 'support@tonsuimining.com',
-    'smtp_from_name' => 'Ton Sui Mining',
+return [
+    // Database Configuration
+    'db_host' => 'localhost',
+    'db_name' => 'tonsui',
+    'db_user' => 'root',
+    'db_pass' => '',
+    'db_port' => '3306',
+
+    // SMTP Configuration
+    'smtp_host' => 'smtp.example.com',
+    'smtp_port' => 587,
+    'smtp_user' => 'noreply@example.com',
+    'smtp_pass' => '',
+    'smtp_from' => 'noreply@example.com',
+    'smtp_from_name' => 'TonSuiMining',
+    'smtp_secure' => 'tls'
 ];

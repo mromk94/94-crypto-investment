@@ -1,45 +1,38 @@
 <?php
-require_once 'config.php';
-require_once 'db.php';
+// Define TONSUI_LOADED constant to prevent direct access to session_init.php
+define('TONSUI_LOADED', true);
+
+// Include centralized session initialization
+require_once __DIR__ . '/session_init.php';
 
 header('Content-Type: application/json');
+// Critical: Add cache control headers
+header('Cache-Control: no-cache, no-store, must-revalidate');
+header('Pragma: no-cache');
+header('Expires: 0');
+// CRITICAL: Allow origin with credentials
+$allowed_origin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : '*';
+header("Access-Control-Allow-Origin: $allowed_origin");
+header('Access-Control-Allow-Methods: GET, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type, Authorization');
 
-// Admin session check
-session_start();
-if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
-    http_response_code(401);
-    echo json_encode(["error" => "Unauthorized"]);
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    http_response_code(200);
     exit;
 }
 
+require_once 'db.php';
+
 try {
-    // Get total invested and active plans
-    $stmt = $pdo->query("
-        SELECT 
-            COALESCE(SUM(CAST(amount_invested AS DECIMAL(18,8))), 0) as total_invested,
-            COALESCE(SUM(CAST(profit_earned AS DECIMAL(18,8))), 0) as total_roi_paid,
-            COUNT(CASE WHEN status = 'active' THEN 1 ELSE NULL END) as active_plans
-        FROM investments
-    ");
-    
-    $result = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    // Ensure we have proper types (float for amounts, int for counts)
-    $response = [
-        'success' => true,
-        'totalInvested' => (float)$result['total_invested'],
-        'totalRoiPaid' => (float)$result['total_roi_paid'],
-        'activePlans' => (int)$result['active_plans']
+    $analytics = [
+        'total_users' => $pdo->query("SELECT COUNT(*) FROM users")->fetchColumn() ?: 0,
+        'total_investments' => $pdo->query("SELECT COUNT(*) FROM investments")->fetchColumn() ?: 0,
+        'total_deposits' => $pdo->query("SELECT COALESCE(SUM(amount), 0) FROM transactions WHERE type = 'deposit' AND status = 'completed'")->fetchColumn() ?: 0,
+        'total_withdrawals' => $pdo->query("SELECT COALESCE(SUM(amount), 0) FROM transactions WHERE type = 'withdrawal' AND status = 'completed'")->fetchColumn() ?: 0,
+        'pending_transactions' => $pdo->query("SELECT COUNT(*) FROM transactions WHERE status = 'pending'")->fetchColumn() ?: 0
     ];
-    
-    // Set JSON headers and output
-    header('Content-Type: application/json');
-    echo json_encode($response, JSON_PRESERVE_ZERO_FRACTION);
-    
+    echo json_encode(['success' => true, 'analytics' => $analytics]);
 } catch (Exception $e) {
-    http_response_code(500);
-    echo json_encode([
-        'success' => false,
-        'error' => 'Failed to fetch analytics: ' . $e->getMessage()
-    ]);
+    echo json_encode(['success' => false, 'message' => 'Error: ' . $e->getMessage()]);
 }
+?>

@@ -1,17 +1,30 @@
 <?php
+header("Content-Type: application/json");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+header('Access-Control-Allow-Credentials: true');
+
+if ($_SERVER["REQUEST_METHOD"] === "OPTIONS") {
+    http_response_code(200);
+    exit;
+}
+
 // logout.php: Handles user logout for Ton Sui Mining with secure session cleanup
-header('Content-Type: application/json');
 header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 
-// Start or resume session with secure settings
-require_once 'auth.php';
+// Define TONSUI_LOADED constant to prevent direct access to session_init.php
+define('TONSUI_LOADED', true);
+
+// Include centralized session initialization
+require_once __DIR__ . '/session_init.php';
 require_once 'db.php';
 
 // Log the logout event if user was logged in
-$userId = $_SESSION['user_id'] ?? null;
+$userId = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : 0 ?? null;
 $username = $_SESSION['username'] ?? 'unknown';
 $isAdmin = isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'];
 

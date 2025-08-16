@@ -1,0 +1,100 @@
+# Ton Sui Mining .htaccess for React + PHP (Vite + cPanel)
+
+# Enable rewrite engine
+RewriteEngine On
+RewriteBase /
+
+# CRITICAL: Handle all JavaScript with correct MIME type
+RewriteCond %{REQUEST_URI} \.js$ [NC]
+RewriteRule ^ - [T=application/javascript,L]
+
+# Explicitly allow static files in assets directory
+RewriteCond %{REQUEST_URI} ^/assets/ [OR]
+RewriteCond %{REQUEST_URI} \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|map)$ [NC]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Allow API/backend direct access
+RewriteCond %{REQUEST_URI} ^/auth-backend/ [OR]
+RewriteCond %{REQUEST_URI} ^/install/
+RewriteRule ^ - [L]
+
+# CRITICAL: SPA Routes - Directly serve dist/index.html for known SPA routes to prevent PHP processing
+RewriteRule ^(dashboard|login|register|admin|profile|kyc|reset-password)/?$ /dist/index.html [L]
+
+# SPA ROUTING: For all other non-file requests to frontend paths, use the dist/index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/(auth-backend|install|api)/
+RewriteCond %{REQUEST_URI} !\.(php|html|css|js|jpg|jpeg|png|gif|svg|json)$
+RewriteRule ^(.*)$ /dist/index.html [L,QSA]
+
+# Force DirectoryIndex to prioritize dist/index.html over index.php
+DirectoryIndex dist/index.html index.html index.php
+
+# Force correct MIME types even if server config is wrong
+<IfModule mod_mime.c>
+  # JavaScript - aggressive declarations for maximum compatibility
+  AddType application/javascript .js
+  AddType application/javascript .mjs
+  AddHandler application/javascript .js
+  AddHandler application/javascript .mjs
+  
+  # Super aggressive JavaScript handling for cPanel
+  <FilesMatch "\.js$">
+    ForceType application/javascript
+    Header set Content-Type "application/javascript"
+  </FilesMatch>
+  
+  # CSS
+  AddType text/css .css
+  
+  # JSON
+  AddType application/json .json
+  
+  # Fonts
+  AddType font/ttf .ttf
+  AddType font/woff .woff
+  AddType font/woff2 .woff2
+  AddType font/eot .eot
+  
+  # SVG
+  AddType image/svg+xml .svg
+</IfModule>
+
+# Enable Headers module if available
+<IfModule mod_headers.c>
+  # Force JavaScript MIME type
+  <FilesMatch "\.js$">
+    Header always set Content-Type "application/javascript"
+  </FilesMatch>
+</IfModule>
+
+# Set PHP options
+<IfModule mod_php.c>
+  php_flag short_open_tag on
+</IfModule>
+
+# Disable ETags
+Header unset ETag
+FileETag None
+
+# Allow CORS for assets
+<FilesMatch "\.(js|css|ttf|woff|woff2)$">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
+# Security: Deny access to sensitive files
+<FilesMatch "(composer\.json|composer\.lock|\.env|package\.json|package-lock\.json|\.git|\.gitignore|README.*)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Disable browser caching for development
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|html)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+</IfModule>
